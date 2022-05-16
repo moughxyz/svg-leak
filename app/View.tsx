@@ -30,7 +30,7 @@ export class ModelView extends Component<Props, State> {
 
   render() {
     return (
-      <div data-foo={this.state.password}>
+      <div data-password={this.state.password}>
         <label>Current Password: {this.state.password?.secretPassword}</label>
 
         <button onClick={this.changePassword}>Change Password</button>

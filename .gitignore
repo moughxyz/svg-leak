@@ -10,15 +10,10 @@
 .DS_Store
 .idea
 
-# Ignore bundler config.
-/.bundle
-
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
-
-/config/cap.yml
 
 /app/assets/templates/generated/
 
@@ -42,8 +37,6 @@ dump.rdb
 !/public/uploads/.keep
 
 .vscode
-
-/dist
 
 # Yarn
 yarn-error.log
